@@ -3,24 +3,27 @@
     <div class="text-black" id="nav-end">
       <nav
         id="nav"
-        class="fixed inset-x-0 top-0 flex flex-row justify-between z-10 text-white bg-slate-800"
+        class="fixed inset-x-0 top-0 flex flex-row justify-between z-10 dark:text-white text-gray-400 bg-transparent dark:bg-slate-800"
       >
         <div class="p-4">
-          <div class="font-extrabold tracking-widest text-xl">
+          <div class="font-extrabold tracking-widest text-xl flex flex-row">
             <a href="#" class="transition duration-500 hover:text-indigo-500">
               <img src="./assets/img/saf.png" alt="" class="h-16 w-16" />
             </a>
+            <button class="">
+              <ToggleMode />
+            </button>
           </div>
         </div>
 
         <!-- Nav Items Working on Tablet & Bigger Sceen -->
         <div class="p-4 hidden md:flex flex-row justify-between font-bold">
-          <nuxt-link
+          <!-- <nuxt-link
             to="#"
             id="hide-after-click"
             class="mx-4 text-lg border-b border-transparent hover:border-b-2 hover:border-indigo-300 transition duration-500"
             >Docs</nuxt-link
-          >
+          > -->
           <nuxt-link
             to="/Backend"
             class="mx-4 text-lg border-b border-transparent hover:border-b-2 hover:border-indigo-300 transition duration-500"
@@ -60,12 +63,12 @@
         class="fixed left-0 right-0 hidden bg-white mx-2 mt-16 rounded-br rounded-bl shadow z-10"
       >
         <div class="p-2 divide-y divide-gray-600 flex flex-col">
-          <a href="#about" class="p-2 font-semibold hover:text-indigo-700">Docs</a>
-          <a href="#whyus" class="p-2 font-semibold hover:text-indigo-700"
-            >Backend(nodejs)</a
+          <!--   <nuxt-link to="" class="p-2 font-semibold hover:text-indigo-700">Docs</nuxt-link> -->
+          <nuxt-link to="/Backend" class="p-2 font-semibold hover:text-indigo-700"
+            >Backend(nodejs)</nuxt-link
           >
-          <a href="#showcase" class="p-2 font-semibold hover:text-indigo-700"
-            >Fontend(Nuxt3.js)</a
+          <nuxt-link to="/Fronted" class="p-2 font-semibold hover:text-indigo-700"
+            >Fontend(Nuxt3.js)</nuxt-link
           >
         </div>
       </div>
@@ -89,11 +92,16 @@
       </div>
     </div>
     <NuxtPage />
-    <div class="bg-slate-900 text-white text-center p-2">
-      &COPY;Copyright 2022. franc_pro
-    </div>
+    <Footer />
   </div>
 </template>
+<script>
+import ToggleMode from "./components/toggleMode.vue";
+import Footer from "./components/footer.vue";
+export default {
+  components: { ToggleMode, Footer },
+};
+</script>
 <style>
 #nav-end {
   background: url("https://images.pexels.com/photos/57690/pexels-photo-57690.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
