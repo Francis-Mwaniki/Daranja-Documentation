@@ -1,16 +1,20 @@
 <template>
-  <div class="bg-white">
-    <Nav />
+  <main class="dark:bg-slate-900 bg-gray-200">
     <NuxtPage />
+    <BoutMeVue />
     <Footer />
-  </div>
+  </main>
 </template>
 <script>
-import Nav from "./components/Nav.vue";
-import ToggleMode from "./components/toggleMode.vue";
 import Footer from "./components/footer.vue";
+import BoutMeVue from "./components/BoutMe.vue";
 export default {
-  components: { ToggleMode, Footer, Nav },
+  components: { Footer, BoutMeVue },
+  watch: {
+    $route() {
+      location.reload();
+    },
+  },
 };
 </script>
 <style>
