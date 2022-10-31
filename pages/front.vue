@@ -5,7 +5,7 @@
   >
     <strong
       ><h1
-        class="py-3 border mt-1 m-1 dark:border-pink-600 text-blue-100 dark:text-orange-600 rounded-lg p-2 bg-slate-500 dark:bg-transparent flex justify-center items-center mx-auto flex-row gap-x-2 border-l-8 max-w-md border-blue-800"
+        class="py-3 border mt-1 mr-2 dark:border-pink-600 text-blue-100 dark:text-orange-600 rounded-lg p-2 bg-slate-500 dark:bg-transparent flex justify-center items-center mx-auto flex-row gap-x-2 border-l-8 max-w-md border-blue-800"
       >
         <span
           ><svg
