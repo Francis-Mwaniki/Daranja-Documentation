@@ -81,6 +81,14 @@
       >
       <img src="../assets/img/frontend/stk.svg" alt="" />
     </div>
+    <h2 class="dark:text-white text-gray-600 p-1">All in one Pay!</h2>
+    <div class="flex justify-center items-center mx-auto md:flex-col flex-col gap-y-2">
+      <strong
+        class="font-thin dark:text-white text-gray-600 border-b-2 border-red-500 p-1"
+        >Push all request by one click</strong
+      >
+      <img src="../assets/img/frontend/allInone.svg" alt="" />
+    </div>
     <h2 class="dark:text-white text-gray-600 p-2">
       FINALLY MOUNTING ALL RESPONSE TO THE SCREEN
     </h2>

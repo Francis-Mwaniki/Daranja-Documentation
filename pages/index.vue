@@ -59,6 +59,20 @@
       >
       <img src="../assets/img/dbconnect.svg" alt="" />
     </div>
+    <h2 class="dark:text-white text-gray-600">Model(phone)</h2>
+    <div class="flex justify-center items-center mx-auto md:flex-col flex-col">
+      <strong class="font-thin dark:text-white text-gray-600 border-b-2 border-red-500"
+        >Your model/phoneNumbers.js</strong
+      >
+      <img src="../assets/img/phone.svg" alt="" />
+    </div>
+    <h2 class="dark:text-white text-gray-600">Model(mpesa messages)</h2>
+    <div class="flex justify-center items-center mx-auto md:flex-col flex-col">
+      <strong class="font-thin dark:text-white text-gray-600 border-b-2 border-red-500"
+        >Your model/mpesa.js</strong
+      >
+      <img src="../assets/img/mpesa.svg" alt="" />
+    </div>
     <h2 class="dark:text-white text-gray-600">Main Index.js</h2>
     <div class="flex justify-center items-center mx-auto md:flex-col flex-col">
       <strong class="font-thin dark:text-white text-gray-600 border-b-2 border-red-500"
