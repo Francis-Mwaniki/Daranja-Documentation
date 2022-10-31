@@ -5,7 +5,7 @@
   >
     <strong
       ><h1
-        class="py-3 border mt-1 dark:border-pink-600 text-blue-100 dark:text-orange-600 rounded-lg p-2 bg-slate-500 dark:bg-transparent flex justify-center items-center mx-auto flex-row gap-x-2 border-l-8 border-blue-800"
+        class="py-3 border mt-1 dark:border-pink-600 text-blue-100 dark:text-orange-600 rounded-lg p-2 bg-slate-500 dark:bg-transparent flex justify-center items-center mx-auto flex-row gap-x-2 border-l-8 max-w-md border-blue-800"
       >
         <span
           ><svg
@@ -90,6 +90,7 @@
         >All notification if successful or cancelled will be mounted to the
         screen!</strong
       >
+      <img src="../assets/img/frontend/mounted.svg" alt="" />
       <img src="../assets/img/frontend/mobile.png" alt="" />
     </div>
   </div>

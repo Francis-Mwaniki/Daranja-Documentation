@@ -5,7 +5,7 @@
   >
     <strong
       ><h1
-        class="py-3 border mt-1 dark:border-pink-600 text-blue-100 dark:text-orange-600 rounded-lg p-2 bg-slate-500 dark:bg-transparent flex justify-center items-center mx-auto flex-row gap-x-2 border-l-8 border-blue-800"
+        class="py-3 border mt-1 dark:border-pink-600 max-w-md text-blue-100 dark:text-orange-600 rounded-lg p-2 bg-slate-500 dark:bg-transparent flex justify-center items-center mx-auto flex-row gap-x-2 border-l-8 border-blue-800"
       >
         <span
           ><svg
@@ -64,7 +64,12 @@
       <strong class="font-thin dark:text-white text-gray-600 border-b-2 border-red-500"
         >Get Accesstoken and Send a register url to safaricom.</strong
       >
+
       <img src="../assets/img/getReq.svg" alt="" />
+      <strong class="font-thin dark:text-white text-gray-600 border-b-2 border-red-500"
+        >Get Accesstoken thro- middlewares.</strong
+      >
+      <img src="../assets/img/frontend/acess.svg" alt="" />
     </div>
     <h2 class="dark:text-white text-gray-600">Main Index.js</h2>
     <div class="flex justify-center items-center mx-auto md:flex-col flex-col">
