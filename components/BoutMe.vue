@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-gray-400 mt-7 dark:bg-slate-800 flex justify-center items-center flex-col p-5 mx-auto border-dashed border border-pink-700 max-w-md"
+    class="bg-gray-400 mt-7 dark:bg-slate-800 flex justify-center items-center flex-col p-5 mx-auto border-dashed border border-pink-700 md:max-w-md max-w-sm"
   >
     <h3 class="text-xl dark:text-pink-600 text-white">Did you find this helpful?</h3>
     <h4 class="dark:text-white text-black text-xl">Find me on github & Linkedln</h4>
@@ -51,6 +51,17 @@
         </svg>
       </a>
     </button>
+    <h4
+      class="dark:text-white text-black text-xl flex flex-row gap-x-1 justify-center items-center"
+    >
+      <span>More resources-:</span
+      ><a
+        class="no-underline text-black dark:text-white border-b border-white italic bg-gradient-to-t from-pink-500 to-orange-600 p-1 rounded-lg"
+        href="https://github.com/Francis-Mwaniki/Daranja-Documentation"
+      >
+        source code</a
+      >
+    </h4>
   </div>
 </template>
 

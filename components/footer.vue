@@ -1,6 +1,6 @@
 <template>
   <div
-    class="dark:bg-slate-900 bg-transparent dark:text-white text-gray-600 text-center p-2 flex flex-row justify-center items-center"
+    class="dark:bg-slate-900 bg-transparent dark:text-white text-gray-600 font-mono text-center p-2 flex flex-row justify-center items-center"
   >
     &COPY;Copyright 2022. franc_pro <span><ToggleMode /></span>
   </div>
